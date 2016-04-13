@@ -1,0 +1,18 @@
+{
+   "Room" : {
+      "id" : 1,
+      "temperature" : 25,
+      "waterConsumption" : 20,
+      "energyConsumption" : 1000,
+      "name" : "Bedroom",
+      "devices" : [ {
+         "id" : 1,
+         "name" : "Lamp",
+         "status" : "OFF"
+      }, {
+         "id" : 11,
+         "name" : "Coffee Machine",
+         "status" : "ON"
+      } ]
+   }
+}

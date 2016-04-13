@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12-Jan-2016 06:37:21 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.filmstore.model.Movie" table="movie" catalog="filmstore">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="identity" />
+        </id>
+        <timestamp name="timestamp" column="TIMESTAMP" />
+        <property name="title" type="string">
+            <column name="TITLE" length="45" not-null="true" />
+        </property>
+        <property name="description" type="string">
+            <column name="DESCRIPTION" length="45" not-null="true" />
+        </property>
+        <property name="releasedate" type="string">
+            <column name="RELEASEDATE" length="45" not-null="true" />
+        </property>
+        <property name="price" type="int">
+            <column name="PRICE" not-null="true" />
+        </property>
+        <property name="numberOfMovies" type="int">
+            <column name="NUMBER_OF_MOVIES" not-null="true" />
+        </property>
+        <property name="feedback" type="java.lang.Double">
+            <column name="FEEDBACK" precision="22" scale="0" />
+        </property>
+        <property name="duration" type="string">
+            <column name="DURATION" length="45" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

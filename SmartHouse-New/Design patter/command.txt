@@ -1,0 +1,5 @@
+http://www.oodesign.com/command-pattern.html
+
+https://en.wikipedia.org/wiki/Command_pattern
+
+http://delivery.acm.org/10.1145/1600000/1593165/p231-ridgeway.pdf?ip=194.47.41.96&id=1593165&acc=ACTIVE%20SERVICE&key=74F7687761D7AE37%2E3011C00F366D381C%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=554260017&CFTOKEN=93403675&__acm__=1445263408_b8b856e620ca63d564e032aca3d88ecc
